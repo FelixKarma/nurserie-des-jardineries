@@ -1,0 +1,490 @@
+/* BODY*/
+body {
+    font-family: "Roboto";
+    margin: 0;
+    background-image: url(images/70%_backgroundphoto.png);
+    z-index: 10;
+}
+
+
+/* BACKGROUND IMAGE */
+.background {
+    position: relative;
+}
+
+.background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0, 10);
+    /* Adjust the alpha value between 0 and 1 */
+}
+
+/* HEADER AND MAIN LOGO */
+header {
+    position: sticky;
+    text-align: center;
+    background-color: blanchedalmond;
+    height: 100px;
+    background: linear-gradient(green, white);
+}
+
+h1 {
+    margin-top: 10px;
+    color: white;
+    font: white;
+}
+
+h2 {
+    color: white;
+    font: white;
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+/* NAVIGATION BAR and BUTTONS */
+.navcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    background-color: green;
+}
+
+.navbutton {
+    font-size: 15px;
+    text-decoration: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    color: white;
+}
+
+.navbutton:hover,
+.moncompte:hover,
+.panier:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+.moncompte {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.moncomptelogo {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 20px;
+    right: 120px;
+}
+
+.panier {
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.monpanierlogo {
+    position: absolute;
+    top: 50px;
+    right: 71px;
+    width: 18px;
+    height: 18px;
+}
+
+/* MAIN DIV */
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    background: rgba(232, 232, 232, 0, 5);
+}
+
+/* PAGE POTAGER */
+
+h2 {
+    color: white;
+    font: white;
+}
+
+/* flexbox container */
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: auto;
+    text-align: center;
+    border: 2px white;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px
+}
+
+.cartelegume {
+    width: 120px;
+    height: 130px;
+    margin: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #e3d8ac;
+    font-size: 14px;
+}
+
+.cartelegume:hover {
+    color: white;
+    background-color: green;
+    transition: ease-in;
+
+}
+
+.cartephoto:hover {
+    height: 100px;
+    width: 100px;
+}
+
+/* images of all crops */
+img {
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+}
+
+/* table of association */
+th {
+    background-color: burlywood;
+    column-rule: white;
+    border: 1px solid lightgrey;
+    font-size: 13px;
+    margin: 0;
+    border-spacing: 0;
+    background-color: green;
+    color: white;
+}
+
+table,
+td,
+tr {
+    border: 1px solid lightgrey;
+    font-size: 13px;
+    margin: 0;
+    border-spacing: 0;
+    background-color: white;
+}
+
+.mois {
+    width: 20px;
+    text-align: center;
+}
+
+/* MODAL */
+
+.btn-primary {
+    background-color: white !important;
+    color: black !important;
+    /* border-color: 1px white solid 1px !important; */
+    border: 1px white solid !important;
+}
+
+
+/* PAGE REALISATIONS */
+
+.realisations_container {
+    display: flex;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.realisation {
+    width: 400px;
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: white solid 2px;
+}
+
+.realisation_caption {
+    padding: 20px;
+}
+
+/* PAGE ACCUEIL */
+
+.h2_accueil {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.p_accueil {
+    background-color:antiquewhite;
+    border-radius: 10px;
+}
+
+
+.accueil_parag {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.accueil_container {
+    display: flex;
+    /* margin-top: -10px; */
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.accueil_container2 {
+    display: flex;
+    /* margin-top: 10px; */
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.image_container1 {
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+    background-image: url(https://media.gettyimages.com/photos/senior-gardener-gardening-in-his-permaculture-organic-garden-picture-id1181508899);
+    /* background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/1600px-A_black_image.jpg?20201103073518); */
+    background-position: 40% 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    opacity: 100%;
+    border: whitesmoke solid 2px;
+}
+
+.image_container1:hover,
+.image_container2:hover,
+.image_container3:hover,
+.image_container4:hover {
+    /* opacity: 30%; */
+    filter: blur(5px);
+}
+
+.accueil_text:hover+.image_container1 {
+    filter: blur(5px);
+}
+
+.accueil_text:hover+.image_container2 {
+    filter: blur(5px);
+}
+
+.accueil_text:hover+.image_container3 {
+    filter: blur(5px);
+}
+
+.accueil_text:hover+.image_container4 {
+    filter: blur(5px);
+}
+
+
+
+
+.image_container2 {
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+    background-image: url(https://images.unsplash.com/photo-1492496913980-501348b61469?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80);
+    /* background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/1600px-A_black_image.jpg?20201103073518); */
+    background-position: 40% 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    opacity: 100%;
+    border: whitesmoke solid 2px;
+}
+
+.image_container3 {
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+    background-image: url(images/realisations.jpg);
+    /* background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/1600px-A_black_image.jpg?20201103073518); */
+    background-position: 40% 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    opacity: 100%;
+    border: whitesmoke solid 2px;
+}
+
+.image_container4 {
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+    background-image: url(https://images.unsplash.com/photo-1624668430039-0175a0fbf006?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80);
+    /* background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/1600px-A_black_image.jpg?20201103073518); */
+    background-position: 40% 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    opacity: 100%;
+    border: whitesmoke solid 2px;
+}
+
+.accueil_card {
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-decoration: none;
+    /* clip-path: inset(50px); */
+}
+
+.accueil_boxincontainer {
+    text-decoration: none;
+    /* height: fit-content; */
+    /* overflow: hidden; */
+    /* height: 200px; */
+    display: block;
+}
+
+.accueil_boxincontainer:hover {
+    text-decoration: none;
+    transform: scale(1.2);
+    /* filter: blur(4px); */
+}
+
+.accueil_card_potager {
+    width: 400px;
+    height: 200px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.accueil_card:hover {
+    opacity: 80%;
+}
+
+.accueil_caption {
+    padding: 20px;
+    text-decoration: none;
+}
+
+
+.accueil_text {
+    position: relative;
+    top: 140px;
+    z-index: 99;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* .accueil_text:hover {
+    transform: scale(1.2);
+} */
+
+
+.accueil_text3 {
+    color: black;
+    font: black;
+}
+
+.accueil_text:link,
+.accueil_text:visited,
+.accueil_text:hover,
+.accueil_text:active {
+    text-decoration: none;
+    color: white;
+}
+
+.permaculture_box {
+    text-decoration: none;
+}
+
+
+/* PAGE PERMACULTURE */
+.permaculture_body_background {
+    background-image: url(https://images.unsplash.com/photo-1529313780224-1a12b68bed16?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80);
+}
+
+/* accordion buttons from bootstrap */
+.accordion-button:not(.collapsed) {
+    background-color: lightgreen !important;
+}
+
+/* FOOTER */
+footer {
+    background-color: lightgray;
+    height: 100px;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: linear-gradient(green, white);
+}
+
+.socmed_flexbox {
+    display: flexbox;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.socmed_logo {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer_links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_flexbox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.droits {
+    display: inline;
+}
+
+.navbuttonfooter {
+    font-size: 15px;
+    /*background-color:burlywood;
+    border: 1px solid white;
+    border-radius: 3px;      */
+    text-decoration: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    color: black;
+    margin-left: 30px;
+}
+
+.navbuttonfooter:hover,
+.navbuttonfooter:hover,
+.navbuttonfooter:hover {
+    background-color: darkgreen;
+    color: white;
+}

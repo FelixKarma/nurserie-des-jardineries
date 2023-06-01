@@ -1,0 +1,25 @@
+[
+    {
+        "id" : 1,
+        "nom" : "Ail", 
+        "description" : "description", 
+        "image" :  "image…",
+        "aAssocier" : "",
+        "nePasAssocier" : "",
+        "semisMois" : "",
+        "recolteMois" : ""
+    },
+    {
+        "id" : 2,
+        "nom" : "…", 
+        "description" : "description", 
+        "image" :  "image…",
+        "aAssocier" : "",
+        "nePasAssocier" : "",
+        "semisMois" : "",
+        "recolteMois" : ""
+    }
+    
+
+    
+]
