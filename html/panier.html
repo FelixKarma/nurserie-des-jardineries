@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Permaculture</title>
-    <link rel="stylesheet" href="potager.css">
+    <link rel="stylesheet" href="../css/potager.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -16,10 +16,11 @@
 <body>
     <!--Main logo and site name-->
     <header>
-
-        <a class="logo" href="accueil.html" role="button"> Logo </a>
+        <a class="logo" href="accueil.html" role="button"> 
+            <img src="../images/Mainlogo.png" alt="">
+        </a>
         <br>
-
+        <p class="nurserie">Nurserie des jardiniers</p>
     </header>
 
     <!--Navigation-->
@@ -32,17 +33,26 @@
         <a class="navbutton" href="contact.html" role="button"> Contact </a>
 
         <a class="moncompte" href="moncompte.html" role="button"> Mon compte </a>
-        <div><img class="moncomptelogo" src="images/Mon compte.png" alt="" width="10px"></div>
+        <div><img class="moncomptelogo" src="../images/Mon compte.png" alt="" width="10px"></div>
         <a class="panier" href="panier.html" role="button"> Panier </a>
-        <div><img class="monpanierlogo" src="images/Mon panier.png" alt=""></div>
+        <div><img class="monpanierlogo" src="../images/Mon panier.png" alt=""></div>
     </nav>
 
     <div></div>
 
     <main>
+                <!-- fil d'ariane -->
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="accueil.html">Accueil</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Panier</li>
+                    </ol>
+                </nav>
+                <hr>
+                <!-- end of fil d'ariane -->
         <br>
         <h2>Panier</h2>
-        <h2>study local storage javascript - faux panier (pre-repmli) ; no backend;</h2>
+        <h2>study local storage javascript - faux panier (pré-rempli) ; no backend;</h2>
         <p>https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage</p>
         <br>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ea architecto minima illo suscipit ut provident eius laborum harum magnam, blanditiis impedit inventore necessitatibus repellendus. Neque consequatur in eaque repudiandae.</p>
@@ -52,19 +62,19 @@
     <!--Footer-->
     <footer>
         <div class="socmed_flexbox">
-            <img class="socmed_logo" src="images/Instagram Vector.png" alt="">
-            <img class="socmed_logo" src="images/Facebook Vector.png" alt="">
-            <img class="socmed_logo" src="images/Pinterest Vector.png" alt="">
-            <img class="socmed_logo" src="images/Twitter Vector.png" alt="">
+            <img class="socmed_logo" src="../images/Instagram Vector.png" alt="">
+            <img class="socmed_logo" src="../images/Facebook Vector.png" alt="">
+            <img class="socmed_logo" src="../images/Pinterest Vector.png" alt="">
+            <img class="socmed_logo" src="../images/Twitter Vector.png" alt="">
         </div>
 
         <br>
         <div class="footer_flexbox">
             <p class="droits">© Tous droits réservés - Nurserie des jardiniers - 2023</p>
             <div class="footer_links">
-                <a class="navbuttonfooter" href="" role="button"> Mentions légales </a>
-                <a class="navbuttonfooter" href="" role="button"> CGV </a>
-                <a class="navbuttonfooter" href="" role="button"> Contact </a>
+                <a class="navbuttonfooter" href="mensionslegales.html" role="button"> Mentions légales </a>
+                <a class="navbuttonfooter" href="cgv.html" role="button"> CGV </a>
+                <a class="navbuttonfooter" href="contact.html" role="button"> Contact </a>
             </div>
         </div>
 
