@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Potager</title>
-    <link rel="stylesheet" href="potager.css">
+    <link rel="stylesheet" href="../css/potager.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -17,10 +17,11 @@
 <body>
     <!--Main logo and site name-->
     <header>
-
-        <a class="logo" href="accueil.html" role="button"> Logo </a>
+        <a class="logo" href="accueil.html" role="button"> 
+            <img src="../images/Mainlogo.png" alt="">
+        </a>
         <br>
-
+        <p class="nurserie">Nurserie des jardiniers</p>
     </header>
 
     <!--Navigation-->
@@ -33,25 +34,34 @@
         <a class="navbutton" href="contact.html" role="button"> Contact </a>
 
         <a class="moncompte" href="moncompte.html" role="button"> Mon compte </a>
-        <div><img class="moncomptelogo" src="images/Mon compte.png" alt="" width="10px"></div>
+        <div><img class="moncomptelogo" src="../images/Mon compte.png" alt="" width="10px"></div>
         <a class="panier" href="panier.html" role="button"> Panier </a>
-        <div><img class="monpanierlogo" src="images/Mon panier.png" alt=""></div>
+        <div><img class="monpanierlogo" src="../images/Mon panier.png" alt=""></div>
     </nav>
 
     <main>
+        <!-- fil d'ariane -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="accueil.html">Accueil</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Potager</li>
+            </ol>
+        </nav>
+        <hr>
+        <!-- end of fil d'ariane -->
+
+
         <!--CONTAINER OF VEGGIES-->
         <br>
-        <h2>H2 Potager</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur maxime quam quas provident expedita,
-            dignissimos odit ullam quod vel aspernatur laboriosam quaerat et reprehenderit saepe quos repellat nostrum
-            aliquam eaque.</p>
+        <h2>Potager</h2>
+        <br>
         <section class="container">
 
 
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <div class="cartelegume">1 Ail <br>
-                    <img class="cartephoto" src="images/Potager-all légumes/01-Ail.png" alt="">
+                    <img class="cartephoto" src="../images/Potager-all légumes/01-Ail.png" alt="">
                 </div>
 
             </button>
@@ -63,11 +73,11 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <h1 class="modal-title fs-5" id="exampleModal">Ail</h1>
-                            <img class="cartephoto" src="images/Potager-all légumes/01-Ail.png" alt="">
+                            <img class="cartephoto" src="../images/Potager-all légumes/01-Ail.png" alt="">
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            <img class="cartephoto" src="images/Potager-all légumes/01-Ail.png" alt="">
+                            <img class="cartephoto" src="../images/Potager-all légumes/01-Ail.png" alt="">
                             <br>
                             Definition:
                             <br>
@@ -101,7 +111,7 @@
 
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                 <div class="cartelegume">2 Artichaut <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/02-Artichaut.png" alt=""> </div>
+                        src="../images/Potager-all légumes/02-Artichaut.png" alt=""> </div>
             </button>
 
 
@@ -148,7 +158,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
                 <div class="cartelegume">3 Asperge <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/03-Asperge.png" alt=""> </div>
+                        src="../images/Potager-all légumes/03-Asperge.png" alt=""> </div>
             </button>
 
 
@@ -228,7 +238,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">
                 <div class="cartelegume">4 Aubergine <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/05-Aubergine.png" alt=""> </div>
+                        src="../images/Potager-all légumes/05-Aubergine.png" alt=""> </div>
             </button>
 
 
@@ -257,7 +267,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal5">
                 <div class="cartelegume">5 Bette <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/05-Bette1.png" alt=""> </div>
+                        src="../images/Potager-all légumes/05-Bette1.png" alt=""> </div>
             </button>
 
 
@@ -285,7 +295,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal6">
                 <div class="cartelegume">6 Betterave <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/05-Bette1.png" alt=""> </div>
+                        src="../images/Potager-all légumes/05-Bette1.png" alt=""> </div>
             </button>
 
 
@@ -313,7 +323,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal7">
                 <div class="cartelegume">7 Blette <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/05-Bette1.png" alt=""> </div>
+                        src="../images/Potager-all légumes/05-Bette1.png" alt=""> </div>
             </button>
 
 
@@ -341,7 +351,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal8">
                 <div class="cartelegume">8 Brocoli <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/08-Brocoli.png" alt=""> </div>
+                        src="../images/Potager-all légumes/08-Brocoli.png" alt=""> </div>
             </button>
 
 
@@ -368,7 +378,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal9">
                 <div class="cartelegume">9 Carotte <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/09-Carotte.png" alt=""> </div>
+                        src="../images/Potager-all légumes/09-Carotte.png" alt=""> </div>
             </button>
 
 
@@ -396,7 +406,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal10">
                 <div class="cartelegume">10 Céleri <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/10-Céleri.png" alt=""> </div>
+                        src="../images/Potager-all légumes/10-Céleri.png" alt=""> </div>
             </button>
 
 
@@ -425,7 +435,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal11">
                 <div class="cartelegume">11 Chou <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/11-Chou.png" alt=""> </div>
+                        src="../images/Potager-all légumes/11-Chou.png" alt=""> </div>
             </button>
 
 
@@ -454,7 +464,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal12">
                 <div class="cartelegume">12 Chou-fleur <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/12-Chou-fleur.png" alt=""> </div>
+                        src="../images/Potager-all légumes/12-Chou-fleur.png" alt=""> </div>
             </button>
 
 
@@ -482,7 +492,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal13">
                 <div class="cartelegume">13 Concombre <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/13-Concombre.png" alt=""> </div>
+                        src="../images/Potager-all légumes/13-Concombre.png" alt=""> </div>
             </button>
 
 
@@ -512,7 +522,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal14">
                 <div class="cartelegume">14 Courge <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/14-Courge.png" alt=""> </div>
+                        src="../images/Potager-all légumes/14-Courge.png" alt=""> </div>
             </button>
 
 
@@ -540,7 +550,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal15">
                 <div class="cartelegume">15 Courgette <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/15 Courgette.png" alt=""> </div>
+                        src="../images/Potager-all légumes/15 Courgette.png" alt=""> </div>
             </button>
 
 
@@ -568,7 +578,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal16">
                 <div class="cartelegume">16 Cornichon <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/16-Cornichon.png" alt=""> </div>
+                        src="../images/Potager-all légumes/16-Cornichon.png" alt=""> </div>
             </button>
 
 
@@ -596,7 +606,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal17">
                 <div class="cartelegume">17 Endive <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/17-Endive.png" alt=""> </div>
+                        src="../images/Potager-all légumes/17-Endive.png" alt=""> </div>
             </button>
 
 
@@ -624,7 +634,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal18">
                 <div class="cartelegume">18 Épinard <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/18-épinard.png" alt=""> </div>
+                        src="../images/Potager-all légumes/18-épinard.png" alt=""> </div>
             </button>
 
 
@@ -653,7 +663,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal19">
                 <div class="cartelegume">19 Fenouil <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/19-Fenouil.png" alt=""> </div>
+                        src="../images/Potager-all légumes/19-Fenouil.png" alt=""> </div>
             </button>
 
 
@@ -681,7 +691,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal20">
                 <div class="cartelegume">20 Fève <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/20-Fève.png" alt=""> </div>
+                        src="../images/Potager-all légumes/20-Fève.png" alt=""> </div>
             </button>
 
 
@@ -709,7 +719,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal21">
                 <div class="cartelegume">21 Fraisier <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/21-Fraisier.png" alt=""> </div>
+                        src="../images/Potager-all légumes/21-Fraisier.png" alt=""> </div>
             </button>
 
 
@@ -737,7 +747,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal22">
                 <div class="cartelegume">22 Haricot <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/22-Haricot.png" alt=""> </div>
+                        src="../images/Potager-all légumes/22-Haricot.png" alt=""> </div>
             </button>
 
 
@@ -765,7 +775,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal23">
                 <div class="cartelegume">23 Laitue <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/23-Laitue.png" alt=""> </div>
+                        src="../images/Potager-all légumes/23-Laitue.png" alt=""> </div>
             </button>
 
 
@@ -793,7 +803,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal24">
                 <div class="cartelegume">24 Mâche <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/24-Mâche.png" alt=""> </div>
+                        src="../images/Potager-all légumes/24-Mâche.png" alt=""> </div>
             </button>
 
 
@@ -822,7 +832,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal25">
                 <div class="cartelegume">25 Maïs <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/25-Maïs.png" alt=""> </div>
+                        src="../images/Potager-all légumes/25-Maïs.png" alt=""> </div>
             </button>
 
 
@@ -850,7 +860,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal26">
                 <div class="cartelegume">26 Melon <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/26-Melon.png" alt=""> </div>
+                        src="../images/Potager-all légumes/26-Melon.png" alt=""> </div>
             </button>
 
 
@@ -877,7 +887,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal27">
                 <div class="cartelegume">27 Navet <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/27-Navet.png" alt=""> </div>
+                        src="../images/Potager-all légumes/27-Navet.png" alt=""> </div>
             </button>
 
 
@@ -904,7 +914,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal16">
                 <div class="cartelegume">16 Cornichon <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/16-Cornichon.png" alt=""> </div>
+                        src="../images/Potager-all légumes/16-Cornichon.png" alt=""> </div>
             </button>
 
 
@@ -932,7 +942,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal28">
                 <div class="cartelegume">28 Oignon <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/28-Oignon.png" alt=""> </div>
+                        src="../images/Potager-all légumes/28-Oignon.png" alt=""> </div>
             </button>
 
 
@@ -959,7 +969,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal29">
                 <div class="cartelegume">29 Panais <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/29-Panais.png" alt=""> </div>
+                        src="../images/Potager-all légumes/29-Panais.png" alt=""> </div>
             </button>
 
 
@@ -987,7 +997,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal30">
                 <div class="cartelegume">30 Petit-pois <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/30-petit-pois.png" alt=""> </div>
+                        src="../images/Potager-all légumes/30-petit-pois.png" alt=""> </div>
             </button>
 
 
@@ -1015,7 +1025,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal31">
                 <div class="cartelegume">31 Piment <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/31-Piment.png" alt=""> </div>
+                        src="../images/Potager-all légumes/31-Piment.png" alt=""> </div>
             </button>
 
 
@@ -1043,7 +1053,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal32">
                 <div class="cartelegume">32 Poireau <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/32-Poireau.png" alt=""> </div>
+                        src="../images/Potager-all légumes/32-Poireau.png" alt=""> </div>
             </button>
 
 
@@ -1070,7 +1080,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal33">
                 <div class="cartelegume">Pomme de terre <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/33-pomme de terre.png" alt=""> </div>
+                        src="../images/Potager-all légumes/33-pomme de terre.png" alt=""> </div>
             </button>
 
 
@@ -1098,7 +1108,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal34">
                 <div class="cartelegume">34 Radis <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/34-Radis.png" alt=""> </div>
+                        src="../images/Potager-all légumes/34-Radis.png" alt=""> </div>
             </button>
 
 
@@ -1125,7 +1135,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal35">
                 <div class="cartelegume">35 Salade <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/35-Salade.png" alt=""> </div>
+                        src="../images/Potager-all légumes/35-Salade.png" alt=""> </div>
             </button>
 
 
@@ -1152,7 +1162,7 @@
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal36">
                 <div class="cartelegume">36 Tomate <br> <img class="cartephoto"
-                        src="images/Potager-all légumes/36-tomates.png" alt=""> </div>
+                        src="../images/Potager-all légumes/36-tomates.png" alt=""> </div>
             </button>
 
 
@@ -1735,9 +1745,9 @@
         <div class="footer_flexbox">
             <p class="droits">© Tous droits réservés - Nurserie des jardiniers - 2023</p>
             <div class="footer_links">
-                <a class="navbuttonfooter" href="" role="button"> Mentions légales </a>
-                <a class="navbuttonfooter" href="" role="button"> CGV </a>
-                <a class="navbuttonfooter" href="" role="button"> Contact </a>
+                <a class="navbuttonfooter" href="mensionslegales.html" role="button"> Mentions légales </a>
+                <a class="navbuttonfooter" href="cgv.html" role="button"> CGV </a>
+                <a class="navbuttonfooter" href="contact.html" role="button"> Contact </a>
             </div>
         </div>
 
