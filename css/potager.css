@@ -6,6 +6,10 @@ body {
   z-index: 10;
 }
 
+.textwithBGcolor {
+  background-color: antiquewhite;
+}
+
 /* BACKGROUND IMAGE */
 .background {
   position: relative;
@@ -130,7 +134,17 @@ h2 {
   font: white;
 }
 
-/* flexbox container */
+/* javascript - looping on a class */
+.defmodal {
+    text-align: justify;
+}
+
+.modalsubtitle {
+    text-align: justify;
+    font-weight: bold;
+}
+
+/* flexbox container on HTML */
 .container {
   display: flex;
   flex-direction: row;
@@ -487,6 +501,21 @@ tr {
   float: right;
   width: auto;
   height: 200px;
+}
+
+.permaculturephoto {
+    width: 700px !important;
+    height: 300px !important;
+}
+
+.permaculturephoto3 {
+    width: 300px !important;
+    height: 200px !important;
+}
+
+.permaculturephoto6 {
+    width: 300px !important;
+    height: 200px !important;
 }
 
 /* accordion buttons from bootstrap */
