@@ -1,0 +1,272 @@
+/* BODY*/
+body {
+  font-family: "Roboto";
+  margin: 0;
+  background-image: url(../images/70_backgroundphoto.png);
+  z-index: 10;
+}
+
+/* BACKGROUND IMAGE */
+.background {
+  position: relative;
+}
+
+.background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0, 10);
+  /* Adjust the alpha value between 0 and 1 */
+}
+
+/* HEADER AND MAIN LOGO */
+header {
+  position: sticky;
+  text-align: center;
+  background-color: blanchedalmond;
+  height: 100px;
+  background: linear-gradient(green, white);
+}
+
+.nurserie {
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+  text-align: center;
+  /* font-family: 'Roboto', sans-serif; */
+}
+
+h1 {
+  margin-top: 10px;
+  color: white;
+  font: white;
+  
+}
+
+h2 {
+  color: white;
+  font: white;
+  text-align: center;
+}
+
+.logo {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  padding: 0;
+  transform: scale(1.2);
+}
+
+/* NAVIGATION BAR and BUTTONS */
+.navcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+  background-color: green;
+}
+
+.navbutton {
+  font-size: 15px;
+  text-decoration: none;
+  padding-left: 3px;
+  padding-right: 3px;
+  color: white;
+}
+
+.navbutton:hover,
+.moncompte:hover,
+.panier:hover {
+  background-color: darkgreen;
+  color: white;
+}
+
+.moncompte {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.moncomptelogo {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 20px;
+  right: 120px;
+}
+
+.panier {
+  position: absolute;
+  right: 20px;
+  top: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+.monpanierlogo {
+  position: absolute;
+  top: 50px;
+  right: 71px;
+  width: 18px;
+  height: 18px;
+}
+
+/* MAIN DIV */
+main {
+  margin-left: 10%;
+  margin-right: 10%;
+  background: rgba(232, 232, 232, 0, 5);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* flexbox container */
+.container-graines {
+  background-color: rgb(219, 202, 202);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carte-graines {
+  width: 350px;
+  height: 610px;
+  background-color: #e3d8ac;
+  border-radius: 10px;
+  box-shadow: 2px 10px 12px #030303;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: 10px 10px;
+}
+
+.graine {
+  max-height: 100%;
+  max-width: 100%;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+p 
+{
+  color: rgb(54, 41, 245);
+  text-align: right;
+  margin-top: 20px;
+}
+
+
+.type {
+  width: 320px;
+  height: auto;
+  border-radius: 18px;
+}
+
+.container-graines:hover
+{
+background:rgb(226, 220, 137);
+transform-style: preserve 3d;
+transform: scale(1.02);
+transition: all ease 0.3s;
+}
+
+.carte-graines:hover {
+  background-color: green;
+  transition: all ease 0.5s;
+}
+
+/* images of all crops */
+img {
+  width: 70px;
+  height: 70px;
+  border-radius: 8px;
+}
+
+/* FOOTER */
+footer {
+  background-color: lightgray;
+  /* display: table-row; */
+  /* height: 0; */
+  height: 120px;
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 0;
+  background: linear-gradient(green, white);
+}
+
+.socmed_flexbox {
+  display: flexbox;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.socmed_logo {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.footer_links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer_flexbox {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.droits {
+  display: inline;
+}
+
+.navbuttonfooter {
+  font-size: 15px;
+  /*background-color:burlywood;
+    border: 1px solid white;
+    border-radius: 3px;      */
+  text-decoration: none;
+  padding-left: 3px;
+  padding-right: 3px;
+  color: black;
+  margin-left: 30px;
+}
+
+.navbuttonfooter:hover,
+.navbuttonfooter:hover,
+.navbuttonfooter:hover {
+  background-color: darkgreen;
+  color: white;
+}
+
+/* PAGE CONTACT */
+
+.contactlogo {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  /* margin-right: ; */
+  /* width: 50%; */
+}
+@media(maw-width:720px{})
