@@ -300,8 +300,6 @@ const modalbody = document.getElementsByClassName("modal-body");
 
   for (let i = 0; i < legumes.length; i++) {
     modalbody[i].innerHTML =`
-    <p class="modalsubtitle">${legumes[i].LEGUMES}</p>
-
     <p class="defmodal">${legumes[i].DEFINITION}</p>
     <p class="modalsubtitle">À ASSOCIER</p>
     <p class="defmodal">${legumes[i].AASSOCIER}</p>
