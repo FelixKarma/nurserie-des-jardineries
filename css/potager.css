@@ -179,20 +179,25 @@ th {
   border: 1px solid lightgrey;
   font-size: 13px;
   margin: 0;
-  border-spacing: 0;
+  border-spacing: 1px;
   background-color: green;
   color: white;
-}
+  border-collapse: collapse;
+  table-layout:auto;
+  }
 
 table,
 td,
 tr {
-  border: 1px solid lightgrey;
+  border: 2px solid rgb(0, 0, 0);
   font-size: 13px;
-  margin: 0;
-  border-spacing: 0;
+  margin: 0px;
+  border-spacing: 0px;
   background-color: white;
-}
+  border-collapse: collapse;
+  table-layout:auto;
+  padding: 5px 5px;
+  }
 
 .mois {
   width: 20px;
@@ -238,6 +243,11 @@ tr {
 }
 
 .p_accueil {
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+/* texte accueil page réalisations */
+.texte_réalisations {
   background-color: antiquewhite;
   border-radius: 10px;
 }
