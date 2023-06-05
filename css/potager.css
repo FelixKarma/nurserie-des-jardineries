@@ -6,6 +6,10 @@ body {
   z-index: 10;
 }
 
+.textwithBGcolor {
+  background-color: antiquewhite;
+}
+
 /* BACKGROUND IMAGE */
 .background {
   position: relative;
