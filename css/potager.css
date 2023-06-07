@@ -613,6 +613,20 @@ footer {
 
 /* PAGE PANIER */
 
+.btn-success {
+  border: white solid 1px !important;
+}
+
+.backgroundcolor {
+  /* background-color: rgba(227, 216, 172, 0.7);   */
+  background-color: rgba(227, 216, 172, 0);  
+}
+
+.whiteBG {
+  background-color: rgba(235, 231, 214, 0.8);  
+  /* border: white solid 1px; */
+}
+
 .productbought {
   height: 380px;
   width: 300px;
@@ -621,7 +635,7 @@ footer {
   margin: auto;
   margin-top: 15px;
   margin-bottom: 15px;
-  box-shadow: 2px 10px 12px lightgray;
+  /* box-shadow: 2px 10px 12px lightgray; */
 }
 
 .panierimage {
