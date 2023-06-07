@@ -143,7 +143,7 @@ a {
 .carte-graines {
   width: 350px;
   height: 610px;
-  background-color: rgba(227, 216, 172, 0.5);  
+  background-color: rgba(227, 216, 172, 0.7);  
   border-radius: 10px;
   box-shadow: 2px 10px 12px #030303;
   display: flex;
@@ -232,14 +232,17 @@ button {
   width: 50%;
   max-height: 75%;
   overflow: auto;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
 }
 .modal.modal-show .modal-content {
   animation: fadeInDown 0.3s ease-in-out forwards;
+  
 }
 .modal.modal-hide .modal-content {
   animation: fadeOutUp 0.2s ease-in-out forwards;
+  
 }
+
 .modal-content h1 {
   text-align: center;
   margin-bottom: 2rem;
