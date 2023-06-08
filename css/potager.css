@@ -9,6 +9,7 @@ body {
 .textwithBGcolor {
   background-color: rgba(227, 216, 172, 0.6);  
   border-radius: 10px;
+  
 }
 
 /* BACKGROUND IMAGE */
@@ -260,7 +261,7 @@ tr {
 .h2_accueil {
   text-align: center;
   /* font-weight: bold; */
-  color: black;
+  /* color: black; */
 }
 
 .p_accueil {

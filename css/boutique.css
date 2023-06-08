@@ -162,6 +162,7 @@ a {
   font-weight: bold;
   letter-spacing: 1px;
   margin-top: 20px;
+  text-align: center;
 }
 
 p {
@@ -370,6 +371,7 @@ footer {
 
 .droits {
   display: inline;
+  color: black;
 }
 
 .navbuttonfooter {
@@ -400,4 +402,13 @@ footer {
   margin-left: auto;
   /* margin-right: ; */
   /* width: 50%; */
+}
+
+.descriptionboutique {
+  text-align: justify;
+}
+
+.textwithBGcolor {
+  background-color: rgba(227, 216, 172, 0.6);  
+  border-radius: 10px;
 }
