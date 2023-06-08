@@ -4,7 +4,8 @@ body {
   margin: 0;
   background-image: url(../images/70_backgroundphoto.png);
   z-index: 10;
-}
+  height: 100%;
+	}
 
 /* BACKGROUND IMAGE */
 .background {
@@ -51,6 +52,55 @@ h2 {
   text-align: center;
 }
 
+.box {
+	display: flex;
+  justify-content: center;
+    }
+
+.box .inner {
+	width: 400px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 3em;
+	font-family: sans-serif;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;    
+  }
+
+.box .inner:first-child {
+	background-color: rgb(0, 128, 0, 0.5);
+	color: rgba(227, 216, 172);
+	transform-origin: right;
+	transform: perspective(100px) rotateY(-15deg);
+}
+
+.box .inner:last-child {
+	background-color: rgba(227, 216, 172, 0.7);
+	color: green;
+	transform-origin: left;
+	transform: perspective(100px) rotateY(15deg);
+}
+
+.box .inner span {
+	position: absolute;
+	animation: marquee 5s linear infinite;
+}
+
+.box .inner:first-child span {
+	animation-delay: 2.5s;
+	left: -100%;
+}
+
+@keyframes marquee {
+	from {
+		left: 100%;
+	}
+
+	to {
+		left: -100%;
+	}
+}
 .logo {
   height: 70px;
   width: 70px;
@@ -162,6 +212,7 @@ a {
   font-weight: bold;
   letter-spacing: 1px;
   margin-top: 20px;
+  text-align: center;
 }
 
 p {
@@ -251,7 +302,8 @@ button {
   color: black;
   background-color: rgba(227, 216, 172, 0.6);  
   border-radius: 10px;
-}
+    }
+
 .primary
 {
   position: relative;
@@ -384,6 +436,7 @@ footer {
 
 .droits {
   display: inline;
+  color: black;
 }
 
 .navbuttonfooter {
@@ -414,4 +467,13 @@ footer {
   margin-left: auto;
   /* margin-right: ; */
   /* width: 50%; */
+}
+
+.descriptionboutique {
+  text-align: justify;
+}
+
+.textwithBGcolor {
+  background-color: rgba(227, 216, 172, 0.6);  
+  border-radius: 10px;
 }

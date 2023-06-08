@@ -12,6 +12,55 @@ body {
   font-size: 18px;
 }
 
+.box {
+	display: flex;
+  justify-content: center;
+    }
+
+.box .inner {
+	width: 400px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 3em;
+	font-family: sans-serif;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;    
+  }
+
+.box .inner:first-child {
+	background-color: rgb(0, 128, 0, 0.5);
+	color: rgba(227, 216, 172);
+	transform-origin: right;
+	transform: perspective(100px) rotateY(-15deg);
+}
+
+.box .inner:last-child {
+	background-color: rgba(227, 216, 172, 0.7);
+	color: green;
+	transform-origin: left;
+	transform: perspective(100px) rotateY(15deg);
+}
+
+.box .inner span {
+	position: absolute;
+	animation: marquee 5s linear infinite;
+}
+
+.box .inner:first-child span {
+	animation-delay: 2.5s;
+	left: -100%;
+}
+
+@keyframes marquee {
+	from {
+		left: 100%;
+	}
+
+	to {
+		left: -100%;
+	}
+
 /* BACKGROUND IMAGE */
 .background {
   position: relative;
@@ -27,7 +76,7 @@ body {
   background-color: rgba(255, 255, 255, 0, 10);
   /* Adjust the alpha value between 0 and 1 */
 }
-
+}
 /* HEADER AND MAIN LOGO */
 header {
   position: sticky;
