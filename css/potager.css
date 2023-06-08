@@ -7,8 +7,9 @@ body {
 }
 
 .textwithBGcolor {
-  background-color: rgba(227, 216, 172, 0.6);  
+  background-color: rgba(227, 216, 172, 0.6);
   border-radius: 10px;
+  font-size: 18px;
 }
 
 /* BACKGROUND IMAGE */
@@ -36,7 +37,7 @@ header {
   background: linear-gradient(green, white);
 }
 
-.nurserie  {
+.nurserie {
   font-family: "Dancing Script", cursive;
   font-size: 35px;
   color: black;
@@ -72,7 +73,7 @@ h2 {
   justify-content: space-evenly;
   padding: 5px;
   background-color: green;
-}
+  }
 
 .navbutton {
   font-size: 15px;
@@ -142,12 +143,12 @@ h2 {
 
 /* javascript - looping on a class */
 .defmodal {
-    text-align: justify;
+  text-align: justify;
 }
 
 .modalsubtitle {
-    text-align: justify;
-    font-weight: bold;
+  text-align: justify;
+  font-weight: bold;
 }
 
 /* flexbox container on HTML */
@@ -203,8 +204,8 @@ th {
   background-color: green;
   color: white;
   border-collapse: collapse;
-  table-layout:auto;
-  }
+  table-layout: auto;
+}
 
 table,
 td,
@@ -215,9 +216,9 @@ tr {
   border-spacing: 0px;
   background-color: white;
   border-collapse: collapse;
-  table-layout:auto;
+  table-layout: auto;
   padding: 5px 5px;
-  }
+}
 
 .mois {
   width: 20px;
@@ -248,7 +249,6 @@ tr {
   margin-left: 20px;
   margin-right: 20px;
   border: white solid 2px;
-  
 }
 
 .realisation_caption {
@@ -512,18 +512,18 @@ tr {
 }
 
 .permaculturephoto {
-    width: 700px !important;
-    height: 300px !important;
+  width: 700px !important;
+  height: 300px !important;
 }
 
 .permaculturephoto3 {
-    width: 300px !important;
-    height: 200px !important;
+  width: 300px !important;
+  height: 200px !important;
 }
 
 .permaculturephoto6 {
-    width: 300px !important;
-    height: 200px !important;
+  width: 300px !important;
+  height: 200px !important;
 }
 
 /* accordion buttons from bootstrap */
@@ -603,8 +603,6 @@ footer {
   /* width: 50%; */
 }
 
-
-
 /* PAGE BOUTIQUE */
 
 .boutiquetexte {
@@ -619,11 +617,11 @@ footer {
 
 .backgroundcolor {
   /* background-color: rgba(227, 216, 172, 0.7);   */
-  background-color: rgba(227, 216, 172, 0);  
+  background-color: rgba(227, 216, 172, 0);
 }
 
 .whiteBG {
-  background-color: rgba(235, 231, 214, 0.8);  
+  background-color: rgba(235, 231, 214, 0.8);
   /* border: white solid 1px; */
 }
 
